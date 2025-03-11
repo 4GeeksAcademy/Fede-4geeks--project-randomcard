@@ -47,5 +47,5 @@ window.onload = function() {
   //write your code here
   document.getElementById("sizeButton").addEventListener('click', changeSize);
   document.getElementById("cardButton").addEventListener('click', generateCard);
-  setInterval(generateCard, 1000);
+  setInterval(generateCard, 10000);
 };
