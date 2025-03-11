@@ -15,21 +15,25 @@
     />
   </head>
   <body>
-    <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div>
+      <div>
+        <label for="width">Ancho</label>
+        <input type="number" id="width">
+        <label for="height">Alto</label>
+        <input type="number" id="height">
+        <button id="sizeButton">resizing</button>
+      </div>
+      <div class="containerCard">
+        <div id="card" class="card">
+          <div id="simbolUp">♣</div>
+          <div id="numberCard" class="valor">A</div>
+          <div id="simbolDown" class="invertido">♣</div>
+        </div>
+      </div>
+      <div class="containerButton">
+        <button id="cardButton">GENERATE</button>
       </div>
     </div>
-
-    <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
-    <script type="module" src="/app.js"></script>
+      <script type="module" src="/app.js"></script>
   </body>
 </html>

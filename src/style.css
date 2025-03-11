@@ -1,5 +1,45 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
+    background: green;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.containerCard {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.card {
     background: white;
+    width: 100px;
+    height: 150px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+    border: solid 2px black;
+    border-radius: 12px;
+    box-shadow: 5px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.valor {
+    display: flex;
+    justify-content: center;
+}
+
+.invertido {
+    display: flex;
+    transform: rotate(180deg);
+}
+
+.containerButton {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
